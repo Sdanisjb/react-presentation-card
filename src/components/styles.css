@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+* {
+    box-sizing: border-box;    
+}
+
+body{
+    background-color: #23252C;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+.App{
+    width: 317px;
+    margin: auto;
+    background-color: #1A1B21;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.profile-picture{
+    width: 317px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.info{
+    text-align: center;
+}
+
+.info-name{
+    font-size: 25px;
+    color: white;
+    margin-bottom: 0px;
+    font-weight: 700;
+}
+
+.info-email{
+    font-size: 10.24px;
+    color: #F5F5F5;
+    font-weight: 400;
+}
+
+.info-job{
+    font-size: 12.8px;
+    color: #F3BF99;
+    font-weight: 400;
+}
+
+.button-icon{
+    width: 12.8px;
+}
+
+.contact-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contact-buttons > button{
+    margin: 10px;
+    width: 115px;
+    height: 34px;
+    border-radius: 6px;
+}
+
+.email-btn{
+    background-color: white;
+    border-style: solid;
+    border-color: #D1D5DB;
+    border-width: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.linkedin-btn{
+    background-color: #5093E2;
+    border-style: solid;
+    border-color: #5093E2;
+    border-width: 1px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.email-btn > p{
+    margin-left: 9.6px;
+    font-weight: 500;
+}
+
+.linkedin-btn > p{
+    margin-left: 9.6px;
+    font-weight: 500;
+}
+
+
+.text-section > h1{
+    color: #F5F5F5;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-size: 16px;
+    text-align: left;
+    font-weight: 700;
+}
+
+.text-section > p{
+    color: #F5F5F5;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-size: 10.24px;
+    text-align: left;
+    font-weight: 400;
+}
+
+.footer-icon{
+    color: #918E9B;
+    width: 25px;
+    height: 25px;
+    margin: 12.5px;
+}
+
+.footer{
+    background: #161619;
+    border-radius: 0px 0px 10px 10px;
+}
